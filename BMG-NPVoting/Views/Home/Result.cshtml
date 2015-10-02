@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Success</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+</head>
+<body>
+    <div class="row success-msg">
+        <div class="col-md-12">
+            <div class="alert alert-success" role="alert">
+                <strong>Congratulations!</strong> You have voted successfully.
+            </div>
+            <br />
+            <a href="#" class="resultslink"><strong>View Results</strong></a>
+            <label class="pull-right">VOTES: <strong>1000</strong></label>
+        </div>
+    </div>
+    @Html.Partial("~/Views/Home/_ResultsDayton.cshtml")
+
+    @Html.Partial("~/Views/Home/_ResultsCincinnati.cshtml")
+
+    @Html.Partial("~/Views/Home/_ResultsColumbus.cshtml")
+
+    @Scripts.Render("~/bundles/jquery")
+
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/scripts")
+    @*@RenderSection("scripts", required: false)*@
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Register Your Name</h4>
+            </div>
+            <div class="modal-body">
+                <div class="already-voted">
+                    <div class="alert alert-danger" role="alert">
+                        Sorry. Only <strong>ONE</strong> vote is allowed per day.
+                    </div>
+                </div>
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label for="exampleFirstName">First Name<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="exampleFirstName1" name="exampleFirstName1" required placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleLastName">Last Name<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="exampleLastName1" name="exampleLastName1" required placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleEmail">Email<span class="required">*</span></label>
+                        <input type="email" class="form-control" id="exampleEmail1" name="exampleEmail1" required placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleBusinessName">Business Name</label>
+                        <input type="text" class="form-control" id="exampleBusinessName1" name="exampleBusinessName1" placeholder="Business Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="examplePhone">Phone<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="examplePhone1" name="examplePhone1" required placeholder="Phone">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <small class="muted">NOTE: You are limited to one vote per day per registered user</small>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success pull-right btn-register" id="btnregister">Next</button>
+                    <button type="reset" class="btn btn-primary pull-right" id="btnclear">Clear Fields</button>
+
+                </form>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</div>

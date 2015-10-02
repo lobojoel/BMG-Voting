@@ -1,0 +1,55 @@
+﻿html,body,container {
+    height: 100%;
+}
+.btn-vote {
+    margin: 0 auto;
+}
+
+.modal-header {
+    background-color:#449d44;
+    color:white;
+}
+
+.np-tile-fill {
+    background-color:#e9efe6;
+}
+.np-tile{
+    height:78px;
+}
+
+.np-tile .row .col-md-10 {
+   padding-left:0;
+}
+
+.vertical-center {
+    font-size:16px;
+    padding-top:22px;
+    font-weight:bold;
+}
+
+.divvote {   
+    padding-top:22px;    
+}
+.div-graph {   
+    background-color:#8EC8DF;    
+    opacity: 0.5;
+    height:78px;
+    position: absolute;
+    left: 130px;
+}
+.required{
+    color:red;
+}
+.btn-register{
+    margin-left: 10px;
+}
+table{
+    width:100%;
+}
+
+.error{
+    color:#BB446B;
+    font-weight:200;
+
+}
+
